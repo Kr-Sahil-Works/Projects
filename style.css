@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8369e9;
+    box-sizing: border-box;
+}
+
+/* _________________________________________________________________________________________________________________________________________________________ */
+
+/* ____________________________________________________  NAVBAR STYLING  _____________________________________________________________________ */
+#Navbar{
+    margin: 0 auto;
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Nabla','sans-serif';
+}
+
+#logo-container{
+    display: flex;
+    align-items: center;
+}
+#logo-container img{
+    width: 200px;
+    height: 150px;
+}
+#nav-items{
+    display: flex;
+    width: 600px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-items li{
+    cursor: pointer;
+}
+#navicon{
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+}
+
+
+/* ___________________________________________________   MAIN HEADER STYLING   ________________________________________________________________ */
+/* ____  LEFT SIDE  _____ */
+
+#main-header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+}
+
+#main-header .left{
+    width: 40%;
+    height: 100%;
+    top: 100px;
+    left: 10%;
+    position: absolute;
+    color: white;
+    
+}
+
+#main-header .left .big-text{
+    font-size: 70px;
+    color: white;
+}
+
+#main-header .left #overview{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 15px;
+    /* font-family:'Nabla','sans-serif'; */
+}
+
+#main-header .left #overview .overview-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-header .left #overview .overview-items h4{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+}
+
+#main-header .left #overview .overview-items p{
+    margin: 0;
+    padding: 0;
+    /* font-family: ; */
+    
+}
+
+.graident-text{
+    color: #05c9ff;
+}
+
+
+/* _________________________________________________    RIGHT SIDE OF MAIN HEADER   ________________________________________________________________________________________________________________ */
+#main-header .right{
+    width: 60%;
+    height: 100%;
+    z-index: -10;
+    
+}
+
+#main-header .right img{
+   
+    height: 105vh;
+    margin-top: -10px;
+    margin-left: 140px;
+}
+
+/* _________________________________________________________________________________________________________________________________________________________ */
+
+/* _______________________BUTTONS______________________  */
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.btn{
+    padding: 15px;
+    margin: 0 10px;
+    transform: skew(-10deg);
+    border: solid 2px white;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.gbtn{
+    background: #8369e9 ;
+    background: linear-gradient(45deg, #f805d0 6%,#fb01ac 28%,#05c9ff 80%);
+}
+
+/* _________________________________________________________________________________________________________________________________________________________ */
+
+/* _____________________________________________________  HORIZONTAL BANNER STYLING    ________________________________________________________ */
+
+#band{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    color: white;
+    transform: rotate(-3deg);
+    align-items: center;
+    border: solid 1px #ffffff40;
+    background-color: #ffffff40;
+    box-shadow: 0 80px 32px 0 rgba(31, 38, 135,0.37);
+    backdrop-filter: blur(20px);
+    
+    font-size: 35px;
+   
+}
+
+#band img{
+    width : 30px;
+    height: 30px;
+}
+
